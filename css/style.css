@@ -1,0 +1,105 @@
+
+.flex {
+    display: flex;
+}
+
+.position {
+    justify-content: center;
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ .forms {
+
+    margin-top: 50px;
+}
+
+
+
+.title h4 {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #5863F8;
+}
+
+.title h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+form textarea {
+   
+    color: #484848;
+    resize: none;
+    flex-grow: 1;
+    border: 2px solid #E8E8E8;
+    height: 290px;
+    border-radius: 4px;
+    padding: 16px;
+    margin-right: 16px;
+    min-width: 414px;
+}
+
+textarea:focus { 
+    outline-color: #5863F8;
+}
+
+form ::placeholder {
+    
+    font-size: 16px;
+}
+
+input{
+    width: 350px;
+    border: 2px solid #E8E8E8;
+    border-radius: 4px;
+    padding: 18px;
+    
+}
+input:focus{
+    outline-color: #5863F8;
+}
+button{
+    background: none;
+    border: 0;
+    background-color: #5863F8;
+    padding: 16px;
+    border-radius: 4px;
+    color: #fff;
+    
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.input-button {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.box{
+    flex-direction: column;
+    font-weight: 800;
+}
+.box::before{
+    content: 'information';
+    color: red;
+
+}
